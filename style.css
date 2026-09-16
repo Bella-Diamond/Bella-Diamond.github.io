@@ -218,8 +218,8 @@ body {
 }
 
 .photo-circle {
-    width: 400px;
-    height: 400px;
+    width: 280px;
+    height: 280px;
 
     border-radius: 50%;
 
@@ -1883,8 +1883,8 @@ body {
         var(--bg-main);
 }
 .photo-placeholder {
-    width: 400px;
-    height: 400px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid white;
@@ -1892,7 +1892,7 @@ body {
 }
 .photo-placeholder {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
     display: block;
     object-fit: cover;
