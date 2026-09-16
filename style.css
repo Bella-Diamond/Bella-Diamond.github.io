@@ -1882,11 +1882,18 @@ body {
         ),
         var(--bg-main);
 }
-.profile-photo {
+.photo-placeholder {
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.photo-placeholder {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
