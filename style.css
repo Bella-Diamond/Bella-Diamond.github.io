@@ -1897,3 +1897,36 @@ body {
     display: block;
     object-fit: cover;
 }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 0 0 350px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        flex: none;
+    }
+}
+
