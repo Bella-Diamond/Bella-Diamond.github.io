@@ -218,8 +218,8 @@ body {
 }
 
 .photo-circle {
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
 
     border-radius: 50%;
 
@@ -1883,8 +1883,8 @@ body {
         var(--bg-main);
 }
 .profile-photo {
-    width: 280px;
-    height: 280px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid white;
