@@ -1929,4 +1929,54 @@ body {
         flex: none;
     }
 }
+/* ================================
+   PHOTO AREA
+================================ */
+
+.hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-circle {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    padding: 8px;
+    box-shadow:
+        0 0 30px rgba(124, 58, 237, 0.5),
+        0 0 80px rgba(37, 99, 235, 0.25);
+}
+
+.photo-placeholder {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #11153d;
+    color: #a78bfa;
+    font-size: 18px;
+    font-weight: bold;
+    
+    /* Added to ensure the image doesn't bleed outside the circular boundary */
+    overflow: hidden; 
+}
+
+/* =================================
+   ADDED: PROFILE IMAGE STYLING
+================================= */
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Ensures the image fills the space without stretching/distorting */
+    border-radius: 50%;     /* Keeps the image itself circular */
+    display: block;         /* Removes the tiny default gap below inline images */
+}
 
